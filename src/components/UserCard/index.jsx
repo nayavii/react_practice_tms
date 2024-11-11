@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 
-export const UserCard = ({name, age, image}) => {
+export const UserCard = ({name, age, image, children}) => {
   
   return (
     <div className={`${styles.card} ${styles.card_blue}`}>
@@ -8,6 +8,8 @@ export const UserCard = ({name, age, image}) => {
       <img src={image} alt="user photo" className={styles.image} />
       <p className={styles.name}>User name: {name}</p>
       <p className={styles.name}>Age: {age}</p>
+
+      {children}
     </div>
   );
 };

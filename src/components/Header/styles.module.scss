@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: rgb(255, 140, 0);
+  color: black;
+  padding: 15px 25px;
+  border-radius: 20px;
+}

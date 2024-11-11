@@ -1,0 +1,45 @@
+.wrapper {
+  max-width: 500px;
+  padding: 20px 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(44, 42, 42);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.display {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  background-color: rgb(252, 254, 255);
+  color: rgb(42, 42, 42);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.controlButtons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlButton {
+  background-color: rgb(255, 242, 0);
+  color: rgb(30, 30, 30);
+  padding: 10px 25px;
+  border-radius: 30px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.controlButton:hover {
+  background-color: rgb(255, 252, 96);
+  color: rgb(30, 30, 30);
+
+}
