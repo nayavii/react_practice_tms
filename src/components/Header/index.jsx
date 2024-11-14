@@ -11,10 +11,9 @@ export const Header = () => {
       <Link to={ROUTE_NAMES.COUNTER} className={styles.btn}>
         Counter
       </Link>
+      <Link to={ROUTE_NAMES.CONDITIONAL_RENDERING} className={styles.btn}>
+        Conditional Rendering
+      </Link>
     </div>
   );
 };
-
-
-
-
