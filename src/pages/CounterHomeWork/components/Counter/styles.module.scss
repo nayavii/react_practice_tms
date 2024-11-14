@@ -1,0 +1,49 @@
+.wrapper {
+  width: 300px;
+  margin: 50px auto;
+  background-color: rgb(255, 0, 140);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.wrapper_purple {
+  background-color: rgb(132, 0, 255);
+}
+
+.display {
+  width: 100%;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 20px;
+  color: rgb(37, 37, 37);
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+text-align: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.controlButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controlButton {
+  padding: 15px 20px;
+  width: fit-content;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  &:hover {
+    background-color: rgb(255, 220, 220);
+  }
+}

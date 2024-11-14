@@ -14,6 +14,9 @@ export const Header = () => {
       <Link to={ROUTE_NAMES.CONDITIONAL_RENDERING} className={styles.btn}>
         Conditional Rendering
       </Link>
+      <Link to={ROUTE_NAMES.HOMEWORK} className={styles.btn}>
+        Homework
+      </Link>
     </div>
   );
 };
