@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./styles.module.scss";
+import PropTypes from "prop-types";
 
 export const Counter = ({
   value,
@@ -30,4 +31,12 @@ export const Counter = ({
       </div>
     </div>
   );
+};
+
+Counter.propTypes = {
+  value: PropTypes.number.isRequired,
+  isEven: PropTypes.bool.isRequired,
+  handleIncrement: PropTypes.func.isRequired,
+  handleReset: PropTypes.func.isRequired,
+  handleDecrement: PropTypes.func.isRequired,
 };
