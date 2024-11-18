@@ -17,6 +17,7 @@ export const Header = () => {
       <Link to={ROUTE_NAMES.HOMEWORK} className={styles.btn}>
         Homework
       </Link>
+      <Link to={ROUTE_NAMES.LISTS} className={styles.btn}>Lists</Link>
     </div>
   );
 };

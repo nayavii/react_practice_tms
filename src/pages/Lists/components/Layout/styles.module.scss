@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 80px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.btn {
+  padding: 15px 30px;
+  width: fit-content;
+  background-color: rgb(53, 75, 201);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  margin-bottom: 50px;
+
+  &:hover {
+    background-color: rgb(19, 29, 87);
+  }
+}
+
+.users {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}

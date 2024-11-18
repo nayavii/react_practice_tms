@@ -3,4 +3,5 @@ export const ROUTE_NAMES = {
   COUNTER: "/counter",
   CONDITIONAL_RENDERING: "/conditional-rendering",
   HOMEWORK: '/homework',
+  LISTS: '/lists',
 };
