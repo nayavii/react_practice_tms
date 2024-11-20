@@ -1,19 +1,36 @@
-import React from "react";
-import { UserCard } from "../../../../components/UserCard";
+import React, { useEffect, useMemo } from "react";
 
 import styles from "./styles.module.scss";
 import PropTypes from "prop-types";
+import UserCard from "../../../../components/UserCard";
+import { collectUserids } from "../../../../utils/collectUsersIds";
 
 export const Layout = ({
   users,
   handleAddUser,
   handleRemoveUser,
   handleBlockUser,
+  averageUserAge,
 }) => {
+  // const userDetails = useMemo(()=> {
+  //   return {
+  //     name: 'unknown user',
+  //     age: 'unknown'
+  //   }
+  // }, [])
+
+  const usersIds = useMemo(() => {
+    collectUserids(users);
+  }, [users.length]);
+
+
+
   return (
     <div className={styles.wrapper}>
       <div className="container">
         <h1 className={styles.title}>Lists</h1>
+        <h2 className={styles.title}>Average age: {averageUserAge}</h2>
+        <div>{usersIds}</div>
         <button className={styles.btn} onClick={handleAddUser}>
           Add User
         </button>
@@ -22,12 +39,13 @@ export const Layout = ({
           {users.map(({ id, name, age, image, isBlocked }, index) => (
             <UserCard
               key={id}
+              id={id}
               name={name}
               age={age}
               image={image}
               isBlocked={isBlocked}
-              onDelete={() => handleRemoveUser(id)}
-              onBlock={() => handleBlockUser(id)}
+              onDelete={handleRemoveUser}
+              onBlock={handleBlockUser}
             />
           ))}
         </div>

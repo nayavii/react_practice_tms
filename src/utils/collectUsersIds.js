@@ -1,0 +1,1 @@
+export const collectUserids = (users) => users.map(user => user.id)
