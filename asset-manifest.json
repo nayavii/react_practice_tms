@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nayavii/react_practice_tms/static/css/main.f9e3fa9d.css",
-    "main.js": "/nayavii/react_practice_tms/static/js/main.3c15b987.js",
-    "index.html": "/nayavii/react_practice_tms/index.html",
-    "main.f9e3fa9d.css.map": "/nayavii/react_practice_tms/static/css/main.f9e3fa9d.css.map",
-    "main.3c15b987.js.map": "/nayavii/react_practice_tms/static/js/main.3c15b987.js.map"
+    "main.css": "/react_practice_tms/static/css/main.f9e3fa9d.css",
+    "main.js": "/react_practice_tms/static/js/main.3c15b987.js",
+    "index.html": "/react_practice_tms/index.html",
+    "main.f9e3fa9d.css.map": "/react_practice_tms/static/css/main.f9e3fa9d.css.map",
+    "main.3c15b987.js.map": "/react_practice_tms/static/js/main.3c15b987.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e3fa9d.css",
