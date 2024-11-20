@@ -1,7 +1,7 @@
 {
   "name": "react_practice_tms",
   "version": "0.1.0",
-  "homepage": "https://github.com/nayavii/react_practice_tms",
+  "homepage": "https://nayavii.github.io/react_practice_tms",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
